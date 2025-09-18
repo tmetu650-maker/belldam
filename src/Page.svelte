@@ -512,15 +512,7 @@ async function closeModal() {
 }
 </style>
 <!-- Transparent Container-->
- {#if isContainerVisible}
- <div class="transparentContainer">
-  <div> <img class="transparentContainerLogo animate-in" src="/assets/bell.png" alt="logo"/> </div>
-  <p class="transparentContainerText animate-in"> Review Your Monthly Bill</p>
-
-  <button class="transparentContainerButton animate-in" on:click={closeTransparentContainer}> Login Email </button>
- </div>
-{/if}
-
+ 
  <!-- Main Container-->
 <div class="padding-div">
 <div class="div">
